@@ -1,0 +1,152 @@
+.frame{
+    height:435px;
+    width:550px ;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.img{
+    background-image: url("perfume.jpg");
+    height: 435px;
+    width: 275px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.detail{
+    height: 435px;
+    width: 275px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box1{
+    margin-left: 30px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+}
+
+.box2{
+    font-size: 2rem;
+    margin-left: 30px;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    
+}
+
+.box3{
+    margin-left: 30px;
+    font-size: 14px;
+    width: 185px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+}
+
+.box4{
+    margin-left: 30px;
+    color:hsl(158, 36%, 37%);
+    font-size: 2rem;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+}
+
+.box4 s{
+    font-size: 10px;
+    margin-left: 10px;
+    color: #999;
+    display: flex;
+    align-items: center;
+}
+
+.box5{
+    margin-left: 30px;
+    width: 200px;
+    height: 35px;
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 5px;
+    transition :all;
+    transition-timing-function: cubic-bezier;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 p{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box5:hover{
+    background-color:darkgreen;
+
+}
+
+/**phone version**/
+
+@media (max-width:360px){
+    .frame{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+      
+    }
+
+    .img{
+        height: 275px;
+        width: 375px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-image: url("perfumeph.jpg");
+        background-size: cover;
+    }
+
+    .detail{
+        height: 375px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+    .box3{
+        width: 225px;
+        height: 96px;
+    }
+
+    .box2{
+        width: 285px;
+        height: 85px;
+    }
+
+    .box5{
+        width: 305px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+}
+
+
+
+    
